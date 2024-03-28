@@ -40,9 +40,9 @@
 
 ### Veritabanı Oluşturulur
 
-    ```sql
-    CREATE DATABASE MuzikVeritabani;
-    ```
+```sql
+CREATE DATABASE MuzikVeritabani;
+```
 
 ```sql
 CREATE TABLE Kullanicilar (
@@ -52,6 +52,27 @@ CREATE TABLE Kullanicilar (
     AbonelikID INT,
     FOREIGN KEY (AbonelikID) REFERENCES Abonelikler(AbonelikID)
 );
+```
+
+```sql
+```
+
+```sql
+```
+
+```sql
+```
+
+```sql
+```
+
+```sql
+```
+
+```sql
+```
+
+```sql
 
 CREATE TABLE Abonelikler (
     AbonelikID INT PRIMARY KEY,
