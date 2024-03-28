@@ -245,7 +245,7 @@ SELECT SarkiAdi, YayinlanmaTarihi, Sure
                 (SELECT MIN(Sure)
                 FROM Sarkilar);
 ```
-
+![En Az Süreye Sahip Şarkı](https://github.com/PEKTASCH/VeriTabani/assets/108456677/58c52de1-ad71-4d6d-8a65-b0aad0da61e9)
 
 
 
