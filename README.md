@@ -26,4 +26,8 @@
     Bir kullanıcının sadece bir abonelik türünün olabileceiğini, bir abonelik türünün birden fazla kullanıcının sahip olabileceiğini, (One-to-Many)
     diyagram ile gösterilecektir.
 
+### Oluşturulacak tablolar arasındaki ilişkiler ve tablo içindeki verilerin şema diyagramı ile gösterimi:
+
+![Diyagram](https://github.com/PEKTASCH/VeriTabani/assets/108456677/0336e6c2-ea03-4243-bf13-f1cf461e51d2)
+![SQLDiagram](https://github.com/PEKTASCH/VeriTabani/assets/108456677/02f2ee26-67ce-4423-8e4f-18b6e5a7cae6)
 
