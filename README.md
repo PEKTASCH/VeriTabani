@@ -38,7 +38,7 @@
     Tablolar oluşturuldu.
     Oluşturulan tablolar için veri girişi yapıldı.
 
-'''sql
+```sql
 CREATE TABLE Kullanicilar (
     KullaniciID INT PRIMARY KEY,  /*KullaniciID" sütununu "Kullanici" tablosundaki otomatik artış, birincil anahtar alanı olarak tanımlanır. */
     KullaniciAdi VARCHAR(100) NOT NULL,  /*Her kullanıcının kullanıcı adı olmalı.*/
@@ -95,5 +95,5 @@ CREATE TABLE Sanatcilar (
     SanatciAdi VARCHAR(200) NOT NULL,
     Tur VARCHAR(100)
 );
-'''
+```
 
