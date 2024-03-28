@@ -38,6 +38,12 @@
     Tablolar oluşturuldu.
     Oluşturulan tablolar için veri girişi yapıldı.
 
+### Veritabanı Oluşturulur
+
+```sql
+CREATE DATABASE MuzikVeritabani;
+```
+
 ```sql
 CREATE TABLE Kullanicilar (
     KullaniciID INT PRIMARY KEY,  /*KullaniciID" sütununu "Kullanici" tablosundaki otomatik artış, birincil anahtar alanı olarak tanımlanır. */
