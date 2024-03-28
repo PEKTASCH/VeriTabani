@@ -247,6 +247,26 @@ SELECT SarkiAdi, YayinlanmaTarihi, Sure
 ```
 ![En Az Süreye Sahip Şarkı](https://github.com/PEKTASCH/VeriTabani/assets/108456677/58c52de1-ad71-4d6d-8a65-b0aad0da61e9)
 
+## - Yayınlama ve Bakım
+
+Oluşturulan veri tabanı kullanıcıya sunulur. Bakım aşamasında karşılaşılan problemler çözüme kavuşturulur.
+
+### Karşılaşılan Sorun
+
+![En Az Süreye Sahip Şarkı](https://github.com/PEKTASCH/VeriTabani/assets/108456677/c339c6da-bbd0-4ea9-9b24-a75d67cb83f5)
+![Decimal 2 00](https://github.com/PEKTASCH/VeriTabani/assets/108456677/029c998d-b6f3-4eb3-ba00-f6d257939184)
+
+Sarkilar tablosunda decimal belirtilmesine rağmen şarkı sürelerinin saniye bölümü sorguda gözükmemiştir. 
+Bu hata tespitine göre başlangıçta SQL default olarak DECİMAL(18,0) türünde süreyi tanımlamıştır.
+Önce DECİMAL(10,2) şeklinde değişiklik yapılarak tabloya doğru dakika ve saniye değerleri girilmiş ve hata giderilmiştir.
+
+### Çözüm Süreci
+
+### Sorugunun doğru şekilde sonuç vermesi için hata düzeltilmiştir. Sorgu sırasında saniye bölümü de gözükmektedir.
+    
+Bakım aşamasında, kullanıcıların diğer kullancıların da çalma listelerini ekleyebileceği bir alt yapı oluşturulur. Sistem geliştirilebilir.
+
+
 
 
 
