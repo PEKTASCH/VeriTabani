@@ -44,6 +44,7 @@
 CREATE DATABASE MuzikVeritabani;
 ```
 
+#### Tasarım Aşamasındaki Tablolar Oluşturulur
 ```sql
 CREATE TABLE Kullanicilar (
     KullaniciID INT PRIMARY KEY,  /*KullaniciID" sütununu "Kullanici" tablosundaki otomatik artış, birincil anahtar alanı olarak tanımlanır. */
@@ -55,32 +56,15 @@ CREATE TABLE Kullanicilar (
 ```
 
 ```sql
-```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-```
-
-```sql
-
 CREATE TABLE Abonelikler (
     AbonelikID INT PRIMARY KEY,
     PlanIsmi VARCHAR(255) NOT NULL,
     Fiyat VARCHAR(15) NOT NULL,   /* '8.99 TL'*/
     Ayricaliklar TEXT  /*Boyutu kadar yer kaplaması için TEXT kullandım.*/
 );
+```
 
+```sql
 CREATE TABLE Sarkilar (
     SarkiID INT PRIMARY KEY,
     SarkiAdi VARCHAR(255) NOT NULL,
@@ -92,7 +76,9 @@ CREATE TABLE Sarkilar (
     FOREIGN KEY (AlbumID) REFERENCES Albumler(AlbumID),
     FOREIGN KEY (SanatciID) REFERENCES Sanatcilar(SanatciID)
 );
+```
 
+```sql
 CREATE TABLE CalmaListeleri (
     CalmaListesiID INT PRIMARY KEY,
     Baslik VARCHAR(255) NOT NULL,
@@ -101,7 +87,9 @@ CREATE TABLE CalmaListeleri (
     KullaniciID INT
     FOREIGN KEY (KullaniciID) REFERENCES Kullanicilar(KullaniciID)
 );
+```
 
+```sql
 CREATE TABLE CalmaListesiSarkilari (  /*Bakım aşamalarında kullanıcıların gizli listeler yapabilmesi için yeni listeler oluşturulabilir, geliştirilebilir.*/
     CalmaListesiID INT,
     SarkiID INT,
@@ -109,18 +97,38 @@ CREATE TABLE CalmaListesiSarkilari (  /*Bakım aşamalarında kullanıcıların 
     FOREIGN KEY (CalmaListesiID) REFERENCES CalmaListeleri(CalmaListesiID),
     FOREIGN KEY (SarkiID) REFERENCES Sarkilar(SarkiID)
 );
+```
 
+```sql
 CREATE TABLE Albumler (
     AlbumID INT PRIMARY KEY,
     Baslik VARCHAR(255) NOT NULL,
     Sanatci VARCHAR(200) NOT NULL,
     YayinlanmaTarihi DATE
 );
+```
 
-CREATE TABLE Sanatcilar (
-    SanatciID INT PRIMARY KEY,
-    SanatciAdi VARCHAR(200) NOT NULL,
-    Tur VARCHAR(100)
+```sql
+CREATE TABLE Albumler (
+    AlbumID INT PRIMARY KEY,
+    Baslik VARCHAR(255) NOT NULL,
+    Sanatci VARCHAR(200) NOT NULL,
+    YayinlanmaTarihi DATE
 );
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
