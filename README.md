@@ -23,7 +23,7 @@
     Bir çalma listesi birden fazla şarkı içerebileceğini, bir şarkının  birden fazla çalma listesinde olabileceğini, (Many-to-Many)
     Bir şarkının sadece bir albümde olabileceğini, ve bir albümün içinde birden fazla şarkının olabileceğini, (One-to-Many)
     Bir şarkı sadece bir sanatçıya ait olabileceğini, bir sanatçının birden fazla şarkısının olabileceğini, (One-to-Many)
-    Bir kullanıcının sadece bir abonelik türünün olabileceiğini, bir abonelik türünün birden fazla kullanıcının sahip olabileceiğini, (One-to-Many)
+    Bir kullanıcının sadece bir abonelik türünün olabileceğini, bir abonelik türünün birden fazla kullanıcının sahip olabileceiğini, (One-to-Many)
     diyagram ile gösterilecektir.
 
 ### Oluşturulacak tablolar arasındaki ilişkiler ve tablo içindeki verilerin şema diyagramı ile gösterimi:
@@ -222,6 +222,11 @@ INSERT INTO Sanatcilar (SanatciID, SanatciAdi, Tur) VALUES
 (001, 'Sezen Aksu', 'Türkçe Pop'),
 (002, 'Göksel', 'Türkçe Pop' );
 ```
+
+## - Test
+
+### Veritabanına Yapılan Bazı Sorgu Örnekleri 
+
 
 ```sql
 ```
