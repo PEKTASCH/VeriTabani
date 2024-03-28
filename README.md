@@ -262,8 +262,9 @@ Bu hata tespitine göre başlangıçta SQL default olarak DECİMAL(18,0) türün
 
 ### Çözüm Süreci
 
-### Sorugunun doğru şekilde sonuç vermesi için hata düzeltilmiştir. Sorgu sırasında saniye bölümü de gözükmektedir.
-    
+![SarkilarSureDüzeltildi](https://github.com/PEKTASCH/VeriTabani/assets/108456677/e4a6c5ca-e051-428b-b392-ac26095c76a6)
+
+Sorugunun doğru şekilde sonuç vermesi için hata düzeltilmiştir. Sorgu sırasında saniye bölümü de gözükmektedir.
 Bakım aşamasında, kullanıcıların diğer kullancıların da çalma listelerini ekleyebileceği bir alt yapı oluşturulur. Sistem geliştirilebilir.
 
 
