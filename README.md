@@ -229,7 +229,10 @@ INSERT INTO Sanatcilar (SanatciID, SanatciAdi, Tur) VALUES
 
 
 ```sql
+SELECT*FROM CalmaListeleri
 ```
+![SelectFromCalmaListeleri](https://github.com/PEKTASCH/VeriTabani/assets/108456677/875c9c83-fb03-4bca-92a4-777299356386)
+
 
 ```sql
 ```
