@@ -38,7 +38,7 @@
     Tablolar oluşturuldu.
     Oluşturulan tablolar için veri girişi yapıldı.
 
-### Veritabanı Oluşturulur
+#### Veritabanı Oluşturulur
 
 ```sql
 CREATE DATABASE MuzikVeritabani;
