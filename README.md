@@ -40,9 +40,9 @@
 
 ### Veritabanı Oluşturulur
 
-```sql
-CREATE DATABASE MuzikVeritabani;
-```
+    ```sql
+    CREATE DATABASE MuzikVeritabani;
+    ```
 
 ```sql
 CREATE TABLE Kullanicilar (
