@@ -34,9 +34,9 @@
 ## - Kodlama
 
     SQL Server Managment Studio ile tasarımı oluşuturulan ilişkisel veri tabanı için kodlama aşamasına geçilir. 
-    Veritabanı yaratıldı.
-    Tablolar oluşturuldu.
-    Oluşturulan tablolar için veri girişi yapıldı.
+    Veritabanı yaratılacak.
+    Tablolar oluşturulacak.
+    Oluşturulan tablolar için veri girişi yapılacak.
 
 #### Veritabanı Oluşturulur
 
