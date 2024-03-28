@@ -229,12 +229,21 @@ INSERT INTO Sanatcilar (SanatciID, SanatciAdi, Tur) VALUES
 
 
 ```sql
+-- Calma Listelerini listeleme:
+
 SELECT*FROM CalmaListeleri
 ```
 ![SelectFromCalmaListeleri](https://github.com/PEKTASCH/VeriTabani/assets/108456677/875c9c83-fb03-4bca-92a4-777299356386)
 
 
 ```sql
+-- En az çalma süresine sahip şarkı adını, yayınlanma tarihini ve süresini gösterir:
+
+SELECT SarkiAdi, YayinlanmaTarihi, Sure
+    FROM Sarkilar
+    WHERE Sure = 
+                (SELECT MIN(Sure)
+                FROM Sarkilar);
 ```
 
 
